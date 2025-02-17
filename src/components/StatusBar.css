@@ -1,0 +1,30 @@
+/* Status Bar */
+
+.status-bar {
+  height: 25px;
+  background: #004e45;
+  color: #fff;
+  font-size: 14px;
+  padding: 0 8px;
+}
+
+.status-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.status-bar div {
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 0 0 8px;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .status-bar {
+    display: none;
+  }
+}

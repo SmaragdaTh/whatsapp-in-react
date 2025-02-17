@@ -1,0 +1,9 @@
+/* Chat */
+
+.chat {
+  height: calc(100% - 69px);
+}
+
+.chat-container {
+  height: 100%;
+}
